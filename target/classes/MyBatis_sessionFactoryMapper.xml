@@ -1,0 +1,12 @@
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="abc">
+	<select id="queryUserById" resultType="jp.codewindy.mybatis.pojo.User">
+		select * from codewindy_mybatis1216.tb_user where id = #{id}
+	</select>
+
+
+
+</mapper>
